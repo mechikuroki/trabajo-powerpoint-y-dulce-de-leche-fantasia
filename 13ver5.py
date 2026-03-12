@@ -1,7 +1,7 @@
-frutas = ["manzana", "banana", "uva"`]
-if "mango" is in frutas:
+frutas = ["manzana", "banana", "uva"]
+if "mango" in frutas:
     print("terrible cheto")
-if "manzana" is in frutas:
+if "manzana" in frutas:
     print("buena elección")
 
 frutas_favoritas = frutas.copy()
