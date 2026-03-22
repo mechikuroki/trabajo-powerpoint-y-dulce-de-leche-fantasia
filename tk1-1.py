@@ -18,10 +18,10 @@ def calculate():
             return
         elif operator != "raiz":
             operation = eval(f"{n1} {operator} {n2}")
-            print(operation)
         else:
             operation = n1 ** (1/ n2)
         result.set(operation)
+        print(operation)
         return
     except Exception:
         pass
